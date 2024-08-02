@@ -1,24 +1,4 @@
-# ---
-# jupyter:
-#   jupytext:
-#     text_representation:
-#       extension: .py
-#       format_name: light
-#       format_version: '1.5'
-#       jupytext_version: 1.16.3
-#   kernelspec:
-#     display_name: Python 3 (ipykernel)
-#     language: python
-#     name: python3
-# ---
-
-# Name: Shubham Shankar Atugade
-#
-# Domain: Data Science
-#
-# Project name: Online retail product recommendation system
-#
-# language: Python |
+# language: Python 
 # library: Pandas, Seaborn, Matplotlib, Scikit-surprise
 
 # **Loading and analyzing the dataset for better result**
@@ -199,38 +179,4 @@ print(f'\nTop 10 recommendated products for {customer_id}:')
 
 for product in top_product_recommendations:
     print(product)
-
-# +
-customer_id = input('Enter the Customer ID')
-top_product_recommendations = top_recommendations(customer_id, n=5)
-print(f'\nTop 10 recommendated products for {customer_id}:')
-
-for product in top_product_recommendations:
-    print(product)
-
-# +
-customer_id = input('Enter the Customer ID')
-top_product_recommendations = top_recommendations(customer_id, n=5)
-print(f'\nTop 10 recommendated products for {customer_id}:')
-
-for product in top_product_recommendations:
-    print(product)
-
-# +
-customer_id = input('Enter the Customer ID')
-top_product_recommendations = top_recommendations(customer_id, n=5)
-print(f'\nTop 10 recommendated products for {customer_id}:')
-
-for product in top_product_recommendations:
-    print(product)
-
-# +
-customer_id = input('Enter the Customer ID')
-top_product_recommendations = top_recommendations(customer_id, n=5)
-print(f'\nTop 10 recommendated products for {customer_id}:')
-
-for product in top_product_recommendations:
-    print(product)
-# -
-
-
+    
